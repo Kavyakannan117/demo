@@ -1,0 +1,12 @@
+server:
+  port: 8082
+
+demo:
+  datasource:
+    jdbc-url: jdbc:mysql://localhost:3306/demo
+    username: root
+    password: root@123
+    driverClassName: com.mysql.cj.jdbc.Driver
+    minimumIdle: 2
+    maximumPoolSize: 1000
+
